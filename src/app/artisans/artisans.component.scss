@@ -1,0 +1,74 @@
+
+.content { 
+
+   
+    
+    width: 100%;
+
+    .artisans {
+        margin: auto;
+        display: flex;
+        flex-wrap : wrap;
+        width: 1500px;
+        justify-content: space-between ;
+        padding: 20px;
+
+        .artisan {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            height: 400px;
+            width: 250px !important;
+            background-color: rgb(241,248 ,252);
+
+        }
+    }
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1499px)  {
+
+
+
+    .content { 
+
+   
+    
+         
+        .artisans {
+
+            width: 900px;
+           
+            .artisan {
+                
+
+
+            }
+        }
+    
+    }
+
+
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 899px)  {
+
+    .content { 
+
+   
+    
+         
+        .artisans {
+
+            width: 320px;
+           
+            .artisan {
+                
+
+
+            }
+        }
+    
+    }
+
+}
