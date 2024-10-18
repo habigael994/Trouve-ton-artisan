@@ -1,4 +1,6 @@
 
+$textcolor1: rgb(0,73,124) ;
+
 .content { 
 
    
@@ -19,6 +21,10 @@
             height: 400px;
             width: 250px !important;
             background-color: rgb(241,248 ,252);
+            border-radius: 0%;
+            border-style: solid;
+            border-width: 0px 1px 1px 0px;  
+            border-color: $textcolor1;
 
         }
     }
@@ -40,7 +46,7 @@
            
             .artisan {
                 
-
+              
 
             }
         }
@@ -64,8 +70,6 @@
            
             .artisan {
                 
-
-
             }
         }
     
