@@ -266,18 +266,17 @@ header {
                         
                         .navbar-toggler {
             
-                            height: 12px;
-                            width: 12px;
+                            height: 20px !important;
+                            width: 20px !important;
                             margin: 0% !important;
                             padding: 0%;
                             border-radius: 25% !important;
                             
                             span {
                                 
-                                 margin-bottom: 16.5px;
-                                 width:9px ;
-                                 height:9px ;
-
+                                 margin-bottom: 14px !important;
+                                 width:18px ;
+                                 height:18px;
                             }
 
                         }
@@ -315,7 +314,7 @@ header {
                             
                         width: 60px !important;
                         font-size: xx-small;
-                        height: 12px;
+                        height: 20px;
                         padding: 0% !important;
                           ;
                 
@@ -324,19 +323,19 @@ header {
                     .btn {
                 
                 
-                        height: 12px !important;
+                        height: 20px !important;
                         width: 20px !important;
                         padding: 0%;
 
                         div {
 
                             width: 20px;
-                            height: 12px;
+                            height: 20px;
 
                             .search-logo {
                                 
 
-                                margin-bottom: 16px  !important;
+                                margin-bottom: 10px  !important;
                                 height: 10px !important;
                                 width: 10px !important;
                         
