@@ -1,0 +1,58 @@
+$textcolor1: rgb(0,73,124) ;
+$color1: rgb(0,116,199) ;
+$color2: rgb(241,248 ,252);
+
+.accueil {
+
+    h1 {
+ 
+        background-color: $textcolor1 !important;
+        width: 600px;
+        margin: auto;
+        border-style: solid;
+        border-width: 0px 5px 5px 0px;  
+        border-color: $color1;
+        color: white;
+        text-align: center;
+        margin-top: 80px;
+
+
+    }
+
+    .tuto {
+        width: 80%;
+        margin: auto;
+        padding-top: 100px;
+
+        h2 {
+
+            color: $textcolor1  ;
+
+        }
+
+        hr {
+
+            color: $color1;
+            height: 10px;
+            width: 100px;
+            background-color:$color1 ;
+            opacity: 1;
+
+        }
+
+    }
+
+    .artisans {
+        
+        margin: auto;
+        width: 60%;
+         padding-top: 120px;
+         padding-bottom: 170px;
+         display: flex;
+         justify-content: space-around;
+
+
+    }
+
+
+}

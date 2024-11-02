@@ -1,0 +1,382 @@
+$textcolor1: rgb(0,73,124) ;
+$color1: rgb(0,116,199) ;
+$color2: rgb(241,248 ,252);
+
+.page-artisan {
+     
+    margin: auto;
+    display: flex;
+    color:$textcolor1  ;
+    .artisan-info {
+        margin: auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left : 60px;
+        form {
+
+             margin-top: 100px;
+
+            .form-group {
+
+                input {
+
+                    background-color:$color2;
+                    border-radius: 5px;
+                    border-style: solid;
+                    border-width: 0px 2px 2px 0px;  
+                    border-color: $color1;
+                     
+                }
+
+                .f1 {
+
+                    width: 600px;
+
+                }
+
+                .f2 {
+
+                    width: 800px;
+
+                }
+
+                textarea {
+
+                    width: 1000px;
+                    background-color: $color2;
+                    border-radius: 5px;
+                    border-style: solid;
+                    border-width: 0px 2px 2px 0px;  
+                    border-color: $color1;
+                }
+
+             }
+
+             button {
+
+                background-color:$color1 ;
+                margin-top: 20px;
+                height: 40px;
+                width: 80px;
+                
+
+             }
+        }
+
+
+    }
+
+    .artisan-img {
+        margin-right: 20px;
+        padding-top: 60px;
+        padding-left: 60px;
+        padding-right: 60px;
+        
+        img {
+          
+            width: 600px;
+            height: 600px;
+
+        }
+
+    }
+
+
+    
+}
+
+@media screen and (max-width: 1782px) and (min-width: 1481px)  {
+
+
+
+    .page-artisan {
+     
+        margin: auto;
+        display: flex;
+        color:$textcolor1  ;
+        .artisan-info {
+            margin: auto;
+            padding-top: 60px;
+            padding-bottom: 60px;
+            padding-left : 60px;
+
+            .artisan-about {
+
+
+
+            }
+
+            form {
+    
+                 margin-top: 100px;
+    
+                .form-group {
+    
+                    input {
+    
+                        background-color:$color2;
+                        border-radius: 5px;
+                        border-style: solid;
+                        border-width: 0px 2px 2px 0px;  
+                        border-color: $color1;
+                         
+                    }
+    
+                    .f1 {
+    
+                        width: 400px;
+    
+                    }
+    
+                    .f2 {
+    
+                        width: 600px;
+    
+                    }
+    
+                    textarea {
+    
+                        width: 800px;
+                        background-color: $color2;
+                        border-radius: 5px;
+                        border-style: solid;
+                        border-width: 0px 2px 2px 0px;  
+                        border-color: $color1;
+                    }
+    
+                 }
+    
+                 button {
+    
+                    background-color:$color1 ;
+                    margin-top: 20px;
+                    height: 40px;
+                    width: 80px;
+                    
+    
+                 }
+            }
+    
+    
+        }
+    
+        .artisan-img {
+            margin-right: 20px;
+            padding-top: 60px;
+            padding-left: 60px;
+            padding-right: 60px;
+            
+            img {
+              
+                width: 500px;
+                height: 500px;
+    
+            }
+    
+        }
+    
+    
+        
+    }
+}
+
+@media screen and (max-width: 1480px) and (min-width: 884px)  {
+
+
+
+    .page-artisan {
+     
+        margin: auto;
+        display: flex;
+        color:$textcolor1  ;
+        .artisan-info {
+           margin-left: 0%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left : 60px;
+
+            .artisan-about {
+
+                p {
+
+                    width: 300px;
+
+                }
+
+            }
+
+            form {
+    
+                 margin-top: 50px;
+    
+                .form-group {
+    
+                    input {
+    
+                        background-color:$color2;
+                        border-radius: 5px;
+                        border-style: solid;
+                        border-width: 0px 2px 2px 0px;  
+                        border-color: $color1;
+                         
+                    }
+    
+                    .f1 {
+    
+                        width: 100px;
+    
+                    }
+    
+                    .f2 {
+    
+                        width: 300px;
+    
+                    }
+    
+                    textarea {
+    
+                        width: 400px;
+                        background-color: $color2;
+                        border-radius: 5px;
+                        border-style: solid;
+                        border-width: 0px 2px 2px 0px;  
+                        border-color: $color1;
+                    }
+    
+                 }
+    
+                 button {
+    
+                    background-color:$color1 ;
+                    margin-top: 20px;
+                    height: 40px;
+                    width: 80px;
+                    
+    
+                 }
+            }
+    
+    
+        }
+    
+        .artisan-img {
+            margin-right: 20px;
+            padding-top: 60px;
+            padding-left: 60px;
+            padding-right: 60px;
+            
+            img {
+              
+                width: 300px;
+                height: 300px;
+    
+            }
+    
+        }
+    
+    
+        
+    }
+
+}
+
+@media screen and (max-width: 883px) and (min-width: 0px)  {
+
+
+    .page-artisan {
+     
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        color:$textcolor1  ;
+        .artisan-info {
+           margin: auto;
+           padding: 5%;
+      
+
+            .artisan-about {
+
+                p {
+
+                    width: 60%;
+
+                }
+
+            }
+
+            form {
+    
+                 margin-top: 50px;
+    
+                .form-group {
+    
+                    input {
+    
+                        background-color:$color2;
+                        border-radius: 5px;
+                        border-style: solid;
+                        border-width: 0px 2px 2px 0px;  
+                        border-color: $color1;
+                         
+                    }
+    
+                    .f1 {
+    
+                        width: 30%;
+    
+                    }
+    
+                    .f2 {
+    
+                        width:50%;
+    
+                    }
+    
+                    textarea {
+    
+                        width: 70%;
+                        background-color: $color2;
+                        border-radius: 5px;
+                        border-style: solid;
+                        border-width: 0px 2px 2px 0px;  
+                        border-color: $color1;
+                    }
+    
+                 }
+    
+                 button {
+    
+                    background-color:$color1 ;
+                    margin-top: 20px;
+                    height: 40px;
+                    width: 80px;
+                    
+    
+                 }
+            }
+    
+    
+        }
+    
+        .artisan-img {
+            margin: auto;
+            width: 300px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 0px;
+            padding-right: 0px;
+            
+            img {
+              
+                width: 300px;
+                height: 300px;
+    
+            }
+    
+        }
+    
+    
+        
+    }
+
+}
